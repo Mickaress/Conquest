@@ -151,6 +151,29 @@
         </div>
       </div>
     </div>
+
+    <div class="comment">
+      <div class="wrapper">
+        <h1>Комментарии</h1>
+        <form autocomplete="off" id="form">
+          <p>Имя</p>
+          <input type="text" placeholder="Имя" id="comment-name" required />
+          <p>Комментарий</p>
+          <textarea
+            cols="30"
+            rows="5"
+            placeholder="Комментарий"
+            id="comment-text"
+            required
+          ></textarea>
+          <p>Дата</p>
+          <input type="date" id="comment-date" />
+          <button>Добавить комментарий</button>
+        </form>
+        <div id="comment-field"></div>
+      </div>
+    </div>
+
     <footer class="footer">
       <div class="footer-wrapper">
         <div class="footer-wrapper-column footer-wrapper-column-img">
@@ -191,5 +214,6 @@
         </div>
       </div>
     </footer>
+    <script src="./main.js" defer></script>
   </body>
 </html>

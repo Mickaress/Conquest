@@ -280,6 +280,92 @@ p {
     }
   }
 }
+.comment {
+  &-field {
+    &-item {
+      background-color: $btn;
+      border-radius: 5px;
+      margin: 20px 0;
+      padding: 10px;
+      &-name {
+        color: white;
+        font-weight: 500;
+        font-size: 24px;
+      }
+      &-time {
+        font-size: 14px;
+      }
+      &-text {
+        font-weight: 500;
+        font-size: 20px;
+        margin: 10px 0;
+      }
+      &-like {
+        width: 48px;
+        height: 48px;
+        display: inline-block;
+        cursor: pointer;
+      }
+      .like-yes {
+        background: url("../img/likes.svg") no-repeat;
+      }
+      .like-no {
+        background: url("../img/dislikes.svg") no-repeat;
+      }
+      &-delete {
+        width: 48px;
+        height: 48px;
+        display: inline-block;
+        background: url("../img/del.svg") no-repeat;
+        cursor: pointer;
+      }
+    }
+  }
+  h1 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 76px;
+  }
+  form {
+    margin-bottom: 30px;
+    p {
+      font-family: "Playfair Display", sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      margin: 10px;
+    }
+    input {
+      font-family: "Playfair Display", sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      width: 100%;
+      padding: 10px;
+    }
+    textarea {
+      font-family: "Playfair Display", sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      width: 100%;
+      resize: none;
+      padding: 10px;
+    }
+    button {
+      margin-top: 10px;
+      padding: 26px 38px;
+      background-color: $btn;
+      border: none;
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      font-size: 12px;
+      cursor: pointer;
+    }
+  }
+}
 .footer {
   color: white;
   background-color: $dark;

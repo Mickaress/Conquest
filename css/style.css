@@ -6,6 +6,7 @@ p {
   color: #1b1a17;
   margin: 0;
   padding: 0;
+  line-height: 100%;
 }
 
 .wrapper {
@@ -279,6 +280,89 @@ p {
 }
 .social-content-right img {
   margin: 3px;
+}
+
+.comment-field-item {
+  background-color: #d4b098;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 10px;
+}
+.comment-field-item-name {
+  color: white;
+  font-weight: 500;
+  font-size: 24px;
+}
+.comment-field-item-time {
+  font-size: 14px;
+}
+.comment-field-item-text {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 10px 0;
+}
+.comment-field-item-like {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  cursor: pointer;
+}
+.comment-field-item .like-yes {
+  background: url("../img/likes.svg") no-repeat;
+}
+.comment-field-item .like-no {
+  background: url("../img/dislikes.svg") no-repeat;
+}
+.comment-field-item-delete {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  background: url("../img/del.svg") no-repeat;
+  cursor: pointer;
+}
+.comment h1 {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 76px;
+}
+.comment form {
+  margin-bottom: 30px;
+}
+.comment form p {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 10px;
+}
+.comment form input {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  width: 100%;
+  padding: 10px;
+}
+.comment form textarea {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  width: 100%;
+  resize: none;
+  padding: 10px;
+}
+.comment form button {
+  margin-top: 10px;
+  padding: 26px 38px;
+  background-color: #d4b098;
+  border: none;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
 }
 
 .footer {
